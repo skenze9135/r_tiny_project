@@ -1,0 +1,175 @@
+---
+title: "R - Student Analysis"
+author: "Tapas PAREKH  \n2505101010097\n"
+date: "2026-09-07"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+This project is about analysis on students data to get summary, plots/graphs etc. related to the data.
+
+# 1. Data Importing
+
+```{r, fig.width = 12, out.width = "100%"}
+# Load knitr to render wide tables beautifully on one line
+library(knitr)
+
+base_dir <- tryCatch(
+  normalizePath(dirname(knitr::current_input())),
+  error = function(e) getwd()
+)
+
+student_path <- file.path(base_dir, "project_data", "students.csv")
+if (!file.exists(student_path)) stop("Student data file not found: ", student_path)
+
+student_data <- read.csv(student_path)
+kable(student_data)
+```
+
+```{r}
+kable(head(student_data))
+```
+
+```{r}
+str(student_data)
+```
+
+```{r}
+summary(student_data)
+```
+
+# 2. Data Preprocessing and Cleaning
+
+```{r}
+colSums(is.na(student_data))
+```
+
+```{r}
+student_data <- unique(student_data)
+```
+
+```{r}
+student_data$Gender <- as.factor(student_data$Gender)
+student_data$Course <- as.factor(student_data$Course)
+student_data$Department <- as.factor(student_data$Department)
+student_data$CGPA <- as.numeric(student_data$CGPA)
+```
+
+```{r}
+colSums(is.na(student_data))
+```
+
+# 3. Statistical Analysis
+
+## CGPA Statistics
+
+```{r}
+mean(student_data$CGPA)
+median(student_data$CGPA)
+var(student_data$CGPA)
+sd(student_data$CGPA)
+min(student_data$CGPA)
+max(student_data$CGPA)
+```
+
+## Gender Distribution
+
+```{r}
+gender_count <- table(student_data$Gender)
+gender_count
+```
+
+## Course Distribution
+
+```{r}
+course_count <- table(student_data$Course)
+course_count
+```
+
+# 4. Graph and Plot Creation
+
+## Gender Distribution
+
+```{r}
+pie(
+  gender_count,
+  main = "Gender Distribution",
+  labels = paste(names(gender_count), gender_count)
+)
+```
+
+## Course Distribution
+
+```{r}
+barplot(
+  course_count,
+  main = "Student Distribution by Course",
+  xlab = "Course",
+  ylab = "Number of Students",
+  las = 2
+)
+```
+
+## Student CGPA
+
+```{r, fig.width = 12, fig.height = 7}
+# Increase the bottom margin so Student IDs have breathing room
+par(mar = c(10, 5, 4, 2) + 0.1)
+
+barplot(
+  student_data$CGPA,
+  names.arg = student_data$Student_ID,
+  main = "Student CGPA",
+  xlab = "", 
+  ylab = "CGPA",
+  las = 2
+)
+
+# Push the x-axis label downwards so it doesn't overlap
+title(xlab = "Students", mgp = c(7, 1, 0))
+```
+
+## CGPA Distribution
+
+```{r}
+hist(
+  student_data$CGPA,
+  main = "Distribution of Student CGPA",
+  xlab = "CGPA",
+  ylab = "Number of Students"
+)
+```
+
+# 5. Course-wise CGPA Analysis
+
+```{r}
+course_cgpa <- aggregate(
+  CGPA ~ Course,
+  data = student_data,
+  FUN = mean
+)
+
+kable(course_cgpa)
+```
+
+## Average CGPA by Course
+
+```{r}
+barplot(
+  course_cgpa$CGPA,
+  names.arg = course_cgpa$Course,
+  main = "Average CGPA by Course",
+  xlab = "Course",
+  ylab = "Average CGPA",
+  las = 2
+)
+```
+
+# 6. Findings
+
+```{r}
+overall_cgpa <- mean(student_data$CGPA)
+overall_cgpa
+```

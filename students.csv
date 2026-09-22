@@ -1,0 +1,101 @@
+Student_ID,Name,Gender,Date_of_Birth,Course,Department,CGPA
+STU2026001,Aarav,Female,02-02-2004,BCA,Computer Applications,7.5
+STU2026002,Aditi,Male,03-03-2005,BCA (Hons.),Computer Applications,8.8
+STU2026003,Aditya,Female,04-04-2006,BBA,Management,6.5
+STU2026004,Akash,Male,05-05-2003,B.Tech CSE,Computer Science,7.8
+STU2026005,Ananya,Female,06-06-2004,B.Sc IT,Information Technology,9.1
+STU2026006,Arjun,Male,07-07-2005,BCA,Computer Applications,6.8
+STU2026007,Avni,Female,08-08-2006,BCA (Hons.),Computer Applications,8.1
+STU2026008,Ayush,Male,09-09-2003,BBA,Management,9.4
+STU2026009,Bhavya,Female,10-10-2004,B.Tech CSE,Computer Science,7.1
+STU2026010,Chirag,Male,11-11-2005,B.Sc IT,Information Technology,8.4
+STU2026011,Daksh,Female,12-12-2006,BCA,Computer Applications,9.7
+STU2026012,Diya,Male,13-01-2003,BCA (Hons.),Computer Applications,7.4
+STU2026013,Dhruv,Female,14-02-2004,BBA,Management,8.7
+STU2026014,Esha,Male,15-03-2005,B.Tech CSE,Computer Science,6.4
+STU2026015,Harsh,Female,16-04-2006,B.Sc IT,Information Technology,7.7
+STU2026016,Isha,Male,17-05-2003,BCA,Computer Applications,9
+STU2026017,Ishaan,Female,18-06-2004,BCA (Hons.),Computer Applications,6.7
+STU2026018,Jatin,Male,19-07-2005,BBA,Management,8
+STU2026019,Karan,Female,20-08-2006,B.Tech CSE,Computer Science,9.3
+STU2026020,Kavya,Male,21-09-2003,B.Sc IT,Information Technology,7
+STU2026021,Krish,Female,22-10-2004,BCA,Computer Applications,8.3
+STU2026022,Kritika,Male,23-11-2005,BCA (Hons.),Computer Applications,9.6
+STU2026023,Manav,Female,24-12-2006,BBA,Management,7.3
+STU2026024,Meera,Male,25-01-2003,B.Tech CSE,Computer Science,8.6
+STU2026025,Mohit,Female,26-02-2004,B.Sc IT,Information Technology,6.3
+STU2026026,Naina,Male,27-03-2005,BCA,Computer Applications,7.6
+STU2026027,Naman,Female,01-04-2006,BCA (Hons.),Computer Applications,8.9
+STU2026028,Neha,Male,02-05-2003,BBA,Management,6.6
+STU2026029,Nikhil,Female,03-06-2004,B.Tech CSE,Computer Science,7.9
+STU2026030,Nisha,Male,04-07-2005,B.Sc IT,Information Technology,9.2
+STU2026031,Om,Female,05-08-2006,BCA,Computer Applications,6.9
+STU2026032,Pallavi,Male,06-09-2003,BCA (Hons.),Computer Applications,8.2
+STU2026033,Parth,Female,07-10-2004,BBA,Management,9.5
+STU2026034,Pooja,Male,08-11-2005,B.Tech CSE,Computer Science,7.2
+STU2026035,Pranav,Female,09-12-2006,B.Sc IT,Information Technology,8.5
+STU2026036,Priya,Male,10-01-2003,BCA,Computer Applications,6.2
+STU2026037,Rahul,Female,11-02-2004,BCA (Hons.),Computer Applications,7.5
+STU2026038,Riya,Male,12-03-2005,BBA,Management,8.8
+STU2026039,Rohan,Female,13-04-2006,B.Tech CSE,Computer Science,6.5
+STU2026040,Sakshi,Male,14-05-2003,B.Sc IT,Information Technology,7.8
+STU2026041,Samarth,Female,15-06-2004,BCA,Computer Applications,9.1
+STU2026042,Sanya,Male,16-07-2005,BCA (Hons.),Computer Applications,6.8
+STU2026043,Shivam,Female,17-08-2006,BBA,Management,8.1
+STU2026044,Shruti,Male,18-09-2003,B.Tech CSE,Computer Science,9.4
+STU2026045,Siddharth,Female,19-10-2004,B.Sc IT,Information Technology,7.1
+STU2026046,Simran,Male,20-11-2005,BCA,Computer Applications,8.4
+STU2026047,Tanmay,Female,21-12-2006,BCA (Hons.),Computer Applications,9.7
+STU2026048,Tanya,Male,22-01-2003,BBA,Management,7.4
+STU2026049,Varun,Female,23-02-2004,B.Tech CSE,Computer Science,8.7
+STU2026050,Vansh,Male,24-03-2005,B.Sc IT,Information Technology,6.4
+STU2026051,Aarav,Female,25-04-2006,BCA,Computer Applications,7.7
+STU2026052,Aditi,Male,26-05-2003,BCA (Hons.),Computer Applications,9
+STU2026053,Aditya,Female,27-06-2004,BBA,Management,6.7
+STU2026054,Akash,Male,01-07-2005,B.Tech CSE,Computer Science,8
+STU2026055,Ananya,Female,02-08-2006,B.Sc IT,Information Technology,9.3
+STU2026056,Arjun,Male,03-09-2003,BCA,Computer Applications,7
+STU2026057,Avni,Female,04-10-2004,BCA (Hons.),Computer Applications,8.3
+STU2026058,Ayush,Male,05-11-2005,BBA,Management,9.6
+STU2026059,Bhavya,Female,06-12-2006,B.Tech CSE,Computer Science,7.3
+STU2026060,Chirag,Male,07-01-2003,B.Sc IT,Information Technology,8.6
+STU2026061,Daksh,Female,08-02-2004,BCA,Computer Applications,6.3
+STU2026062,Diya,Male,09-03-2005,BCA (Hons.),Computer Applications,7.6
+STU2026063,Dhruv,Female,10-04-2006,BBA,Management,8.9
+STU2026064,Esha,Male,11-05-2003,B.Tech CSE,Computer Science,6.6
+STU2026065,Harsh,Female,12-06-2004,B.Sc IT,Information Technology,7.9
+STU2026066,Isha,Male,13-07-2005,BCA,Computer Applications,9.2
+STU2026067,Ishaan,Female,14-08-2006,BCA (Hons.),Computer Applications,6.9
+STU2026068,Jatin,Male,15-09-2003,BBA,Management,8.2
+STU2026069,Karan,Female,16-10-2004,B.Tech CSE,Computer Science,9.5
+STU2026070,Kavya,Male,17-11-2005,B.Sc IT,Information Technology,7.2
+STU2026071,Krish,Female,18-12-2006,BCA,Computer Applications,8.5
+STU2026072,Kritika,Male,19-01-2003,BCA (Hons.),Computer Applications,6.2
+STU2026073,Manav,Female,20-02-2004,BBA,Management,7.5
+STU2026074,Meera,Male,21-03-2005,B.Tech CSE,Computer Science,8.8
+STU2026075,Mohit,Female,22-04-2006,B.Sc IT,Information Technology,6.5
+STU2026076,Naina,Male,23-05-2003,BCA,Computer Applications,7.8
+STU2026077,Naman,Female,24-06-2004,BCA (Hons.),Computer Applications,9.1
+STU2026078,Neha,Male,25-07-2005,BBA,Management,6.8
+STU2026079,Nikhil,Female,26-08-2006,B.Tech CSE,Computer Science,8.1
+STU2026080,Nisha,Male,27-09-2003,B.Sc IT,Information Technology,9.4
+STU2026081,Om,Female,01-10-2004,BCA,Computer Applications,7.1
+STU2026082,Pallavi,Male,02-11-2005,BCA (Hons.),Computer Applications,8.4
+STU2026083,Parth,Female,03-12-2006,BBA,Management,9.7
+STU2026084,Pooja,Male,04-01-2003,B.Tech CSE,Computer Science,7.4
+STU2026085,Pranav,Female,05-02-2004,B.Sc IT,Information Technology,8.7
+STU2026086,Priya,Male,06-03-2005,BCA,Computer Applications,6.4
+STU2026087,Rahul,Female,07-04-2006,BCA (Hons.),Computer Applications,7.7
+STU2026088,Riya,Male,08-05-2003,BBA,Management,9
+STU2026089,Rohan,Female,09-06-2004,B.Tech CSE,Computer Science,6.7
+STU2026090,Sakshi,Male,10-07-2005,B.Sc IT,Information Technology,8
+STU2026091,Samarth,Female,11-08-2006,BCA,Computer Applications,9.3
+STU2026092,Sanya,Male,12-09-2003,BCA (Hons.),Computer Applications,7
+STU2026093,Shivam,Female,13-10-2004,BBA,Management,8.3
+STU2026094,Shruti,Male,14-11-2005,B.Tech CSE,Computer Science,9.6
+STU2026095,Siddharth,Female,15-12-2006,B.Sc IT,Information Technology,7.3
+STU2026096,Simran,Male,16-01-2003,BCA,Computer Applications,8.6
+STU2026097,Tanmay,Female,17-02-2004,BCA (Hons.),Computer Applications,6.3
+STU2026098,Tanya,Male,18-03-2005,BBA,Management,7.6
+STU2026099,Varun,Female,19-04-2006,B.Tech CSE,Computer Science,8.9
+STU2026100,Vansh,Male,20-05-2003,B.Sc IT,Information Technology,6.6

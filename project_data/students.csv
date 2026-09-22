@@ -1,0 +1,6 @@
+"ID","NAME","DOB","Gender","CONTACT","E.mail","Course","Address","Parent_NAME","Parent_CONTACT","Enrollment_Date","Marks","Attendance","Status"
+1001,"Aarav Sharma","2005-04-12","Male","9876543210","aarav@email.com","Computer Science","123 MG Road, Delhi","Rajesh Sharma","9876543211","2024-08-15",85,90,"Active"
+1002,"Diya Patel","2006-09-22","Female","9123456789","diya@email.com","Data Science","456 Ring Road, Mumbai","Suresh Patel","9123456780","2024-08-16",92,95,"Active"
+1003,"Rohan Das","2005-11-05","Male","8887776665","rohan@email.com","Mechanical Eng","789 Lake View, Kolkata","Amit Das","8887776664","2023-08-15",68,75,"Inactive"
+1004,"Ananya Roy","2006-01-15","Female","9776655443","ananya@email.com","Computer Science","101 Park St, Kolkata","Sanjay Roy","9776655444","2024-08-20",74,80,"Active"
+1005,"Karan Mehta","2005-07-30","Male","9665544332","karan@email.com","Data Science","202 Station Rd, Pune","Vikram Mehta","9665544333","2024-08-21",88,85,"Active"

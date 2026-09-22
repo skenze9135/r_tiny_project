@@ -1,0 +1,5 @@
+"TxID","Type","Amount","Category","Date","Description"
+5001,"Income",50000,"Tuition","2026-09-01","Semester fees batch 2024"
+5002,"Expense",227000,"Salary","2026-09-02","Faculty salary disbursement"
+5003,"Income",12000,"Bus Fees","2026-09-03","Route A payments"
+5004,"Expense",15000,"Utilities","2026-09-04","Electricity bill"
